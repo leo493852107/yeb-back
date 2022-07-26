@@ -25,3 +25,10 @@ mybatis-plus:
 logging:
   level:
     com.leo23.mapper: debug
+
+jwt:
+  tokenHeader: Authorization
+  secret: yeb-secret
+  expiration: 604800
+  tokenHead: Bearer
+
